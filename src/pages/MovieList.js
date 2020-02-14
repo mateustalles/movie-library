@@ -26,7 +26,7 @@ class MovieList extends Component {
       <>
         <div className="row movie-list">
           <div>
-            <Link className="add-movie-button" to="/movies/new">
+            <Link className="add-movie-button" to="/movies/new/">
                 ADICIONAR CARTÃO
             </Link>
           </div>

@@ -43,7 +43,7 @@ class MovieDetails extends Component {
           <div className="card">
             <FormComponent movie={movie} id={id} />
             <div className="card-action">
-              <Link to={`/movies/${id}/edit`}>
+              <Link to={`/movies/${id}/edit/`}>
               EDITAR
               </Link>
               <Link to="/">
