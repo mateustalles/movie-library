@@ -69,7 +69,7 @@ function FormComponent(props) {
   return (
     <div>
       <div className="card-image">
-        <img alt="Movie Cover" src={imagePath.search('http') !== -1 ? `${imagePath}` : `../${imagePath}`} />
+        <img alt="Movie Cover" src={`../../${imagePath}`} />
         <span className="card-title">{title}</span>
       </div>
       <div className="card-content">
